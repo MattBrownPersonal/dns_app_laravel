@@ -16,5 +16,5 @@
             "ziggy-js": ["./vendor/tightenco/ziggy"]
         }
     },
-    "include": ["resources/js/**/*.ts", "resources/js/**/*.d.ts", "resources/js/**/*.vue"]
+    "include": ["resources/js/**/*.ts", "resources/js/**/*.d.ts", "resources/js/**/*.vue", "resources/Partials/CardsComponent.vue", "resources/Partials/ExpertsComponent.vue", "resources/Partials/FooterComponent.vue", "resources/Partials/HeroComponent.vue", "resources/Partials/JumbotronComponent.vue", "resources/Partials/LogoComponent.vue", "resources/Partials/MainHeaderComponent.vue", "resources/Partials/ProblemSolversComponent.vue"]
 }

@@ -1,3 +1,320 @@
+@import url("https://fonts.googleapis.com/css2?family=IBM+Plex+Mono:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;1,100;1,200;1,300;1,400;1,500;1,600;1,700&family=Roboto:ital,wght@0,100;0,300;0,400;0,500;0,700;0,900;1,100;1,300;1,400;1,500;1,700;1,900&display=swap");
+
 @tailwind base;
 @tailwind components;
 @tailwind utilities;
+
+body {
+  overflow-x: hidden;
+  color: #fff;
+}
+
+.main_header {
+  background-color: #31297d;
+  height: 742px;
+  position: relative;
+}
+
+.person_one {
+  height: 541px;
+  position: absolute;
+  bottom: 0px;
+  right: 250px;
+}
+
+.person_two {
+  height: 576px;
+  position: absolute;
+  bottom: 0px;
+  right: 100px;
+  z-index: 1;
+}
+
+.geometric_blue,
+.geometric_pink {
+  position: absolute;
+  bottom: 0;
+  z-index: 0;
+}
+
+.geometric_blue {
+  right: 0;
+  top: 0px;
+  height: 1000px;
+}
+
+.geometric_pink {
+  left: 0px;
+  bottom: 0px;
+  height: 90%;
+}
+
+.navbar {
+  position: absolute;
+  top: 32px;
+  left: 40px;
+}
+
+.small_ibm_font {
+  font-family: "IBM Plex Mono";
+  font-size: 12px;
+}
+
+.medium_ibm_font {
+  font-family: "IBM Plex Mono";
+  font-size: 13px;
+}
+
+.large_ibm_font {
+  font-family: "IBM Plex Mono";
+  font-size: 16px;
+}
+
+.small_links {
+  position: absolute;
+  top: 0px;
+}
+
+.large_links {
+  font-size: 18px;
+  font-family: Roboto;
+}
+
+.main_text_container {
+  position: absolute;
+  top: 250px;
+  left: 150px;
+  width: 35%;
+}
+
+.main_text {
+  font-family: roboto;
+  font-size: 70px;
+  font-weight: 500;
+  line-height: 100%;
+}
+
+.cards_container {
+  position: absolute;
+  top: 650px;
+  z-index: 1;
+}
+
+.card {
+  width: 284px;
+  height: 345px;
+  box-shadow: 4px 4px 10px rgba(0, 0, 0, 0.3);
+}
+
+.card_header {
+  font-family: roboto;
+  font-size: 21px;
+  color: #000;
+}
+
+.card_header_alt {
+  font-family: roboto;
+  font-size: 21px;
+}
+
+.logo_container {
+  height: 510px;
+  position: relative;
+  padding-bottom: 90px;
+}
+
+.logos {
+  position: absolute;
+  top: 350px;
+}
+
+.middle_hero_left {
+  background-image: url("/assets/heroimage.png");
+  background-repeat: no-repeat;
+  height: 650px;
+}
+
+.middle_hero_large_text {
+  font-family: roboto;
+  font-size: 50px;
+}
+
+.middle_hero_text_container {
+  width: 500px;
+  position: relative;
+  top: 100px;
+  left: 150px;
+}
+
+.jumbotron_container_flex {
+  position: relative;
+}
+
+.jumbotron_container {
+  width: 1250px;
+  position: absolute;
+  top: 100px;
+}
+
+.carousel {
+  background-image: url("/assets/carouselimage.png");
+  background-repeat: no-repeat;
+  height: 550px;
+}
+
+.carousel_text_left {
+  font-family: roboto;
+  font-size: 30px;
+  font-weight: 500;
+}
+
+.jumbotron_bottom {
+  height: 450px;
+  background-color: #000;
+}
+
+.problem_solvers_container {
+  height: 1300px;
+  background-color: #000;
+  position: relative;
+}
+
+.carousel_main_text_container {
+  width: 750px;
+  padding-top: 40px;
+  padding-left: 50px;
+}
+
+.carousel_main_text {
+  font-family: roboto;
+  font-size: 33px;
+  font-weight: 500;
+}
+
+.indicator_dots {
+  position: absolute;
+  bottom: 80px;
+}
+
+.problem_solvers_text {
+  font-family: roboto;
+  font-size: 40px;
+  font-weight: 500;
+}
+
+.problem_solver_text_box {
+  width: 470px;
+}
+
+.news_container {
+  width: 1250px;
+  position: absolute;
+}
+
+.faq_header {
+  font-family: roboto;
+  font-size: 40px;
+}
+
+.faq_text {
+  font-family: roboto;
+  font-size: 23px;
+}
+
+.small_header_text {
+  font-family: roboto;
+  font-size: 25px;
+}
+
+.expert_container {
+  width: 1000px;
+}
+
+.export_logo_container {
+  position: relative;
+}
+
+.expert_header_large {
+    font-family: roboto;
+    font-size: 40px;
+    font-weight: 500;
+    line-height: 1.3;
+}
+
+.expert_header {
+  font-family: roboto;
+  font-size: 20px;
+  font-weight: 500;
+  line-height: 1.3;
+}
+
+.badge {
+  position: absolute;
+  top: -8px;
+  right: -22px;
+  font-size: 32px;
+  color: #fff;
+  background-color: #c92c93;
+  width: 50px;
+  height: 50px;
+}
+
+.business_badge {
+  position: absolute;
+  top: -2px;
+  right: -70px;
+  font-size: 32px;
+  color: #fff;
+  background-color: #c92c93;
+  width: 85px;
+  height: 44px;
+  padding-bottom: 50px;
+}
+
+.prodhero {
+  background-image: url("/assets/prodhero.png");
+}
+
+.contact_us_container {
+  width: 1300px;
+}
+
+.contact_us_text {
+  font-family: roboto;
+  font-size: 60px;
+  font-weight: 500;
+}
+
+.text-outline {
+  -webkit-text-stroke: 1px white;
+  color: transparent;
+  font-weight: bold;
+}
+
+.input_box {
+  background: transparent;
+  border-color: #fff;
+}
+
+.contact_us_grid_container {
+  position: relative;
+  overflow: hidden;
+}
+
+.submit_button {
+  color: #3c2a7d;
+  width: 200px;
+  height: 55px;
+}
+
+.footer {
+  width: 1300px;
+  line-height: 2.5;
+  font-family: "IBM Plex Mono";
+  font-size: 12px;
+}
+
+.footer_copywright {
+  font-family: "IBM Plex Mono";
+  font-size: 12px;
+}
